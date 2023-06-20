@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16b2a151-e50c-43d8-a9a4-d031b8edb55f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Todo-1/src/Components/Todolist.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/13.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/17.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-1/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo-1/node_modules/.cache/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-1/node_modules/.cache/tsconfig.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo-1/src/Components/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-1/src/Components/Todolist.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +51,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "/Users/alisher/Documents/Todo-list-lessons/Todo-1/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -56,7 +65,9 @@
       <option name="presentableId" value="Default" />
       <updated>1687194919347</updated>
       <workItem from="1687194920599" duration="172000" />
-      <workItem from="1687195098768" duration="5842000" />
+      <workItem from="1687195098768" duration="7047000" />
+      <workItem from="1687278160481" duration="10000" />
+      <workItem from="1687278177084" duration="1089000" />
     </task>
     <servers />
   </component>
