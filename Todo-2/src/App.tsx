@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import {TasksType, TodoList} from "./Components/TodoList";
 
+export type TasksValuesType = "All" | "Active" | "Completed";
 
 function App() {
 
@@ -17,8 +18,11 @@ function App() {
         setTasks(tasks.filter(task => task.id !== taskID));
     }
     // filter
-    const filteringOfTasks = () =>{
-        console.log('sda');
+
+    let filteredTasks = tasks.filter(task=> task.isDone)
+
+    const filteringOfTasks = (value: TasksValuesType) => {
+        console.log(value);
     }
     // -filter//
 
