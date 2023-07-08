@@ -17,13 +17,22 @@ function App() {
     const removeTask = (taskID: number) => {
         setTasks(tasks.filter(task => task.id !== taskID));
     }
+
     // filter
 
-    let filteredTasks = tasks.filter(task=> task.isDone)
-
-    const filteringOfTasks = (value: TasksValuesType) => {
-        console.log(value);
+    let filteredTask = tasks
+    let filteringOfTasks = (value: TasksValuesType) => {
+        if (value === 'Active') {
+            let filteredTask = tasks.filter(task => !task.isDone)
+            console.log(filteredTask)
+        }
+        if (value === 'Completed') {
+            let filteredTask = tasks.filter(task => task.isDone)
+            console.log(filteredTask)
+        }
     }
+
+
     // -filter//
 
     // передача функций
@@ -31,7 +40,7 @@ function App() {
         <div className='App'>
             <TodoList
                 title='What to learn'
-                tasks={tasks}
+                tasks={filteredTask}
                 removeTask={removeTask}
                 filteringOfTasks={filteringOfTasks}
             />

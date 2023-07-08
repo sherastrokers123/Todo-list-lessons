@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/tsconfig.tsbuildinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-2/src/Components/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/src/Components/TodoList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
       <workItem from="1687804539640" duration="3289000" />
       <workItem from="1688055561519" duration="215000" />
       <workItem from="1688821162501" duration="1340000" />
-      <workItem from="1688822527620" duration="13823000" />
+      <workItem from="1688822527620" duration="16204000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1687287673238</created>
@@ -113,6 +112,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upd" />
