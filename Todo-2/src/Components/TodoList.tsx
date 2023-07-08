@@ -1,12 +1,14 @@
 import React from "react";
+
 // типизация компоненты
 type TodoListPropsType = {
     title: string,
     tasks: TasksType[],
-    removeTask: (taskID: number) => void
+    removeTask: (taskID: number) => void,
+    filteringOfTasks:()=>void,
 }
 // типизация таски
-type TasksType = {
+export type TasksType = {
     id: number,
     title: string,
     isDone: boolean
@@ -23,7 +25,7 @@ export const TodoList = (props: TodoListPropsType) => {
                 {props.tasks.map((task) => {
                     return (
                         <li key={task.id}>
-                            <button onClick={() => (props.removeTask(task.id))}>X</button>
+                            <button onClick={() => (props.removeTask(task.id))}>x</button>
                             <input type="checkbox" checked={task.isDone}/>
                             <span>{task.title}</span>
                         </li>
@@ -31,10 +33,9 @@ export const TodoList = (props: TodoListPropsType) => {
                 })}
             </ul>
             <div>
-                <button>All</button>
-                <button>Active</button>
-                <button>Completed</button>
-
+                <button onClick={()=>(props.filteringOfTasks())}>All</button>
+                <button onClick={()=>(props.filteringOfTasks())}>Active</button>
+                <button onClick={()=>(props.filteringOfTasks())}>Completed</button>
             </div>
         </div>
     )

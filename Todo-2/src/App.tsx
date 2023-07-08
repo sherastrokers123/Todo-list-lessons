@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import './App.css';
-import {TodoList} from "./Components/TodoList";
+import {TasksType, TodoList} from "./Components/TodoList";
+
 
 function App() {
 
-    let [tasks,setTasks] = useState(
+    let [tasks, setTasks] = useState<Array<TasksType>>(
         [
             {id: 1, title: "HTML&CSS", isDone: true},
             {id: 2, title: "JS", isDone: true},
@@ -12,18 +13,23 @@ function App() {
             {id: 4, title: "JS", isDone: true}
         ]
     )
-
     const removeTask = (taskID: number) => {
-        tasks = tasks.filter(task => task.id !== taskID)
-        setTasks(tasks);
+        setTasks(tasks.filter(task => task.id !== taskID));
     }
+    // filter
+    const filteringOfTasks = () =>{
+        console.log('sda');
+    }
+    // -filter//
 
+    // передача функций
     return (
         <div className='App'>
             <TodoList
                 title='What to learn'
                 tasks={tasks}
                 removeTask={removeTask}
+                filteringOfTasks={filteringOfTasks}
             />
         </div>
     );
