@@ -6,7 +6,7 @@ type TodoListPropsType = {
     tasks: TasksType[],
     removeTask: (taskID: string) => void,
     changeFilter: (value: TaskValueType) => void,
-    addTask:(title:string)=>void
+    addTask:(title:string)=>void,
 }
 // типизация таски
 export type TasksType = {
@@ -34,9 +34,9 @@ export const TodoList = (props: TodoListPropsType) => {
                 })}
             </ul>
             <div>
-                <button onClick={()=>props.changeFilter('All')}>All</button>
-                <button onClick={()=>props.changeFilter('Active')}>Active</button>
-                <button onClick={()=>props.changeFilter("Completed")}>Completed</button>
+                <button onClick={() => props.changeFilter('All')}>All</button>
+                <button onClick={() => props.changeFilter('Active')}>Active</button>
+                <button onClick={() => props.changeFilter("Completed")}>Completed</button>
             </div>
         </div>
     )

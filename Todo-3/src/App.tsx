@@ -26,23 +26,23 @@ function App() {
         filteredTasks = tasks;
     }
     if (filter === "Completed") {
-        filteredTasks = tasks.filter(task => task.isDone === true)
+        filteredTasks = tasks.filter(task => task.isDone)
     }
     if (filter === "Active") {
-        filteredTasks = tasks.filter(task => !task.isDone === true)
+        filteredTasks = tasks.filter(task => !task.isDone)
     }
     const changeFilter = (value: TaskValueType) => {
         setFilter(value);
     }
     // filter
     //add Task
-    const addTask = (title:string) => {
-        const newTask:TasksType={ // шаблон новой таски
+    const addTask = (title:string)=>{
+        let newTask = {
             id:v1(),
             title:title,
-            isDone:false
+            isDone: false
         }
-        setTasks([newTask,...tasks]) // отрисовка
+        setTasks([newTask,...tasks]);
     }
     //add Task
     // передача функций в Todolist
