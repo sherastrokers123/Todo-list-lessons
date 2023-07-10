@@ -9,11 +9,6 @@
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/13.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/14.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/2.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/3.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/4.pack" afterDir="false" />
@@ -21,8 +16,6 @@
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/6.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/7.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/index.pack" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/node_modules/.cache/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/node_modules/.cache/tsconfig.tsbuildinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-2/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/src/App.tsx" afterDir="false" />
@@ -42,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Todo-2/node_modules/@types/react/index.d.ts" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -102,7 +98,9 @@
       <workItem from="1687804539640" duration="3289000" />
       <workItem from="1688055561519" duration="215000" />
       <workItem from="1688821162501" duration="1340000" />
-      <workItem from="1688822527620" duration="23824000" />
+      <workItem from="1688822527620" duration="25220000" />
+      <workItem from="1688899550585" duration="1064000" />
+      <workItem from="1688929213090" duration="7532000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1687287673238</created>
