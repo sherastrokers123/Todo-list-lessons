@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="16b2a151-e50c-43d8-a9a4-d031b8edb55f" name="Changes" comment="upd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-2/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-2/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-3/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-3/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/1.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/12.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/2.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/3.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-3/node_modules/.cache/default-development/4.pack" afterDir="false" />
@@ -106,7 +103,9 @@
       <workItem from="1688822527620" duration="25220000" />
       <workItem from="1688899550585" duration="1064000" />
       <workItem from="1688929213090" duration="10550000" />
-      <workItem from="1689022049984" duration="2143000" />
+      <workItem from="1689022049984" duration="3793000" />
+      <workItem from="1689026357628" duration="27000" />
+      <workItem from="1689026390620" duration="6198000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1687287673238</created>
@@ -135,17 +134,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upd" />
     <option name="LAST_COMMIT_MESSAGE" value="upd" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Todo-3/src/Components/TodoList.tsx</url>
-          <line>9</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

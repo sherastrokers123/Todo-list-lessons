@@ -35,14 +35,15 @@ function App() {
         setFilter(value);
     }
     // filter
+
     //add Task
-    const addTask = (title:string)=>{
+    const addTask = (titleTask:string) => {
         let newTask = {
-            id:v1(),
-            title:title,
+            id: v1(),
+            title: titleTask,
             isDone: false
         }
-        setTasks([newTask,...tasks]);
+        setTasks([newTask, ...tasks]);
     }
     //add Task
     // передача функций в Todolist

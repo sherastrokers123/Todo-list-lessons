@@ -1,12 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import {TaskValueType} from "../App";
+
 // типизация компоненты
 type TodoListPropsType = {
     title: string,
     tasks: TasksType[],
     removeTask: (taskID: string) => void,
     changeFilter: (value: TaskValueType) => void,
-    addTask:(title:string)=>void,
+    addTask: (titleTask: string) => void,
 }
 // типизация таски
 export type TasksType = {
@@ -15,12 +16,28 @@ export type TasksType = {
     isDone: boolean
 }
 export const TodoList = (props: TodoListPropsType) => {
+    const [titleTask, setTitleTask] = useState<string>('');
     return (
         <div>
             <h3>{props.title}</h3>
             <div>
-                <input/>
-                <button onClick={()=>props.addTask('New Task')}>+</button>
+                <input value={titleTask}
+                       onChange={(e) => {
+                           setTitleTask(e.currentTarget.value)
+                       }}
+                      onKeyDown={(e)=>{
+                          if(e.key === "Enter"){
+                              props.addTask(titleTask);
+                              setTitleTask('');
+                          }
+                      }}
+                />
+
+                <button onClick={() => {
+                    props.addTask(titleTask);
+                    setTitleTask('');
+                }}>+
+                </button>
             </div>
             <ul>
                 {props.tasks.map((task) => {
