@@ -37,13 +37,13 @@ function App() {
     // filter
 
     //add Task
-    const addTask = (titleTask:string) => {
-        let newTask = {
+    const addTask = (titleTask: string) => {
+        const newTask = {
             id: v1(),
             title: titleTask,
             isDone: false
         }
-        setTasks([newTask, ...tasks]);
+        setTasks([newTask, ...tasks])
     }
     //add Task
     // передача функций в Todolist
