@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import {TasksType, TodoList} from "./Components/TodoList";
 import {v1} from "uuid";
+import {Button} from "./Components/Button";
 
 export type TaskValueType = "All" | "Active" | "Completed";
 
@@ -15,6 +16,10 @@ function App() {
             {id: v1(), title: "Angular", isDone: false},
         ]
     )
+
+    const changeIsDone = (id: string, newIsDone: boolean) => {
+
+    }
     const removeTask = (taskID: string) => {
         setTasks(tasks.filter(task => task.id !== taskID));
     }
@@ -55,6 +60,7 @@ function App() {
                 removeTask={removeTask}
                 changeFilter={changeFilter}
                 addTask={addTask}
+                changeIsDone={changeIsDone}
             />
         </div>
     );
