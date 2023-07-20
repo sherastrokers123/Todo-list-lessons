@@ -18,7 +18,7 @@ function App() {
     )
 
     const changeIsDone = (id: string, newIsDone: boolean) => {
-
+        console.log('ds');
     }
     const removeTask = (taskID: string) => {
         setTasks(tasks.filter(task => task.id !== taskID));
@@ -31,10 +31,10 @@ function App() {
         filteredTasks = tasks;
     }
     if (filter === "Completed") {
-        filteredTasks = tasks.filter(task => task.isDone)
+        filteredTasks = tasks.filter(task => task.isDone);
     }
     if (filter === "Active") {
-        filteredTasks = tasks.filter(task => !task.isDone)
+        filteredTasks = tasks.filter(task => !task.isDone);
     }
     const changeFilter = (value: TaskValueType) => {
         setFilter(value);
@@ -48,9 +48,10 @@ function App() {
             title: titleTask,
             isDone: false
         }
-        setTasks([newTask, ...tasks])
+        setTasks([newTask, ...tasks]);
     }
     //add Task
+
     // передача функций в Todolist
     return (
         <div className='App'>
@@ -60,7 +61,6 @@ function App() {
                 removeTask={removeTask}
                 changeFilter={changeFilter}
                 addTask={addTask}
-                changeIsDone={changeIsDone}
             />
         </div>
     );

@@ -9,7 +9,6 @@ type TodoListPropsType = {
     removeTask: (taskID: string) => void,
     changeFilter: (value: TaskValueType) => void,
     addTask: (titleTask: string) => void,
-    changeIsDone: (id: string, newIsDone: boolean) => void
 }
 // типизация таски
 export type TasksType = {
@@ -39,7 +38,6 @@ export const TodoList = (props: TodoListPropsType) => {
             addTaskHandler()
         }
     }
-
     const mappedTasks = props.tasks.map((task) => {
 
         return (
